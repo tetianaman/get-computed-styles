@@ -2,14 +2,10 @@ import { useState } from 'react';
 import styles from './App.module.scss';
 
 function App() {
-    const [count, setCount] = useState(0);
-
     return (
-        <div id={styles.app} className={styles.App}>
-            <div className={styles.card}>
-                <div className={styles.title}>Text</div>
-            </div>
-        </div>
+        <h1 className={styles.header} style={{ fontStyle: 'italic', fontWeight: 'bold'}}>
+            Hello, world
+        </h1>
     );
 }
 

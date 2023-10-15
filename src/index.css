@@ -1,18 +1,12 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  color-scheme: light dark;
-}
-
-form {
-    color: green;
-    background-color: darkslategray;
+  color: hotpink;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  justify-content: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font: 12px Arial;
+}
+
+h1 {
+  font-style: normal !important;
+  padding: 10px;
 }
